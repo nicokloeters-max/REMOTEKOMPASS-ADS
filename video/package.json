@@ -1,0 +1,28 @@
+{
+  "name": "remote-job-kompass-meta-ad-halftone",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "voice": "node scripts/voice.mjs",
+    "audio": "python3 audio/build_audio.py",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/stills.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.532",
+    "@remotion/cli": "^4.0.532",
+    "@remotion/fonts": "^4.0.532",
+    "@remotion/renderer": "^4.0.532",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.532",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2"
+  }
+}

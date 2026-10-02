@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Kompassrose">
+  <defs>
+    <style>
+      .ring { fill: none; stroke: rgba(232, 236, 234, 0.28); }
+      .tick { stroke: rgba(232, 236, 234, 0.34); stroke-width: 1; }
+      .tick-major { stroke: rgba(232, 236, 234, 0.6); stroke-width: 1.4; }
+      .facet-light { fill: #f2efe8; }
+      .facet-dark { fill: rgba(242, 239, 232, 0.3); }
+      .north-light { fill: #5cc0a2; }
+      .north-dark { fill: #23705c; }
+      .hub { fill: none; stroke: rgba(232, 236, 234, 0.55); stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <!-- Ringe -->
+  <circle class="ring" cx="200" cy="200" r="188" stroke-width="1" />
+  <circle class="ring" cx="200" cy="200" r="172" stroke-width="0.6" />
+  <circle class="ring" cx="200" cy="200" r="118" stroke-width="0.6" />
+
+  <!-- Gradring: kurze Striche alle 7,5°, lange alle 45° -->
+  <g>
+    <g class="tick">
+      <path d="M200 18 v10" transform="rotate(7.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(15 200 200)" />
+      <path d="M200 18 v10" transform="rotate(22.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(30 200 200)" />
+      <path d="M200 18 v10" transform="rotate(37.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(52.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(60 200 200)" />
+      <path d="M200 18 v10" transform="rotate(67.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(75 200 200)" />
+      <path d="M200 18 v10" transform="rotate(82.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(97.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(105 200 200)" />
+      <path d="M200 18 v10" transform="rotate(112.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(120 200 200)" />
+      <path d="M200 18 v10" transform="rotate(127.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(142.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(150 200 200)" />
+      <path d="M200 18 v10" transform="rotate(157.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(165 200 200)" />
+      <path d="M200 18 v10" transform="rotate(172.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(187.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(195 200 200)" />
+      <path d="M200 18 v10" transform="rotate(202.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(210 200 200)" />
+      <path d="M200 18 v10" transform="rotate(217.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(232.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(240 200 200)" />
+      <path d="M200 18 v10" transform="rotate(247.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(255 200 200)" />
+      <path d="M200 18 v10" transform="rotate(262.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(277.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(285 200 200)" />
+      <path d="M200 18 v10" transform="rotate(292.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(300 200 200)" />
+      <path d="M200 18 v10" transform="rotate(307.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(322.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(330 200 200)" />
+      <path d="M200 18 v10" transform="rotate(337.5 200 200)" />
+      <path d="M200 18 v10" transform="rotate(345 200 200)" />
+      <path d="M200 18 v10" transform="rotate(352.5 200 200)" />
+    </g>
+    <g class="tick-major">
+      <path d="M200 18 v16" />
+      <path d="M200 18 v16" transform="rotate(45 200 200)" />
+      <path d="M200 18 v16" transform="rotate(90 200 200)" />
+      <path d="M200 18 v16" transform="rotate(135 200 200)" />
+      <path d="M200 18 v16" transform="rotate(180 200 200)" />
+      <path d="M200 18 v16" transform="rotate(225 200 200)" />
+      <path d="M200 18 v16" transform="rotate(270 200 200)" />
+      <path d="M200 18 v16" transform="rotate(315 200 200)" />
+    </g>
+  </g>
+
+  <!-- Nebenstrahlen (diagonal), hinter den Hauptstrahlen -->
+  <g>
+    <g transform="rotate(45 200 200)">
+      <path class="facet-dark" d="M200 62 L200 200 L166 166 Z" />
+      <path class="facet-light" d="M200 62 L200 200 L234 166 Z" opacity="0.55" />
+    </g>
+    <g transform="rotate(135 200 200)">
+      <path class="facet-dark" d="M200 62 L200 200 L166 166 Z" />
+      <path class="facet-light" d="M200 62 L200 200 L234 166 Z" opacity="0.55" />
+    </g>
+    <g transform="rotate(225 200 200)">
+      <path class="facet-dark" d="M200 62 L200 200 L166 166 Z" />
+      <path class="facet-light" d="M200 62 L200 200 L234 166 Z" opacity="0.55" />
+    </g>
+    <g transform="rotate(315 200 200)">
+      <path class="facet-dark" d="M200 62 L200 200 L166 166 Z" />
+      <path class="facet-light" d="M200 62 L200 200 L234 166 Z" opacity="0.55" />
+    </g>
+  </g>
+
+  <!-- Hauptstrahlen: Norden farbig hervorgehoben -->
+  <g>
+    <g>
+      <path class="north-dark" d="M200 22 L200 200 L152 152 Z" />
+      <path class="north-light" d="M200 22 L200 200 L248 152 Z" />
+    </g>
+    <g transform="rotate(90 200 200)">
+      <path class="facet-dark" d="M200 22 L200 200 L152 152 Z" />
+      <path class="facet-light" d="M200 22 L200 200 L248 152 Z" />
+    </g>
+    <g transform="rotate(180 200 200)">
+      <path class="facet-dark" d="M200 22 L200 200 L152 152 Z" />
+      <path class="facet-light" d="M200 22 L200 200 L248 152 Z" />
+    </g>
+    <g transform="rotate(270 200 200)">
+      <path class="facet-dark" d="M200 22 L200 200 L152 152 Z" />
+      <path class="facet-light" d="M200 22 L200 200 L248 152 Z" />
+    </g>
+  </g>
+
+  <circle class="hub" cx="200" cy="200" r="15" />
+  <circle cx="200" cy="200" r="4" fill="#f2efe8" />
+</svg>

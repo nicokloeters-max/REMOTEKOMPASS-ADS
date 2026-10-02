@@ -1,0 +1,477 @@
+{
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration": 40.28,
+  "frames": 2417,
+  "source": "placeholder",
+  "lines": {
+    "funk": {
+      "start": 0.12,
+      "end": 4.98,
+      "words": [
+        {
+          "w": "Siebenundvierzig",
+          "s": 0.12,
+          "e": 0.98
+        },
+        {
+          "w": "Bewerbungen.",
+          "s": 1.01,
+          "e": 1.62
+        },
+        {
+          "w": "Drei",
+          "s": 1.93,
+          "e": 2.19
+        },
+        {
+          "w": "Absagen.",
+          "s": 2.22,
+          "e": 2.63
+        },
+        {
+          "w": "Und",
+          "s": 2.94,
+          "e": 3.15
+        },
+        {
+          "w": "vierundvierzigmal …",
+          "s": 3.18,
+          "e": 4.09
+        },
+        {
+          "w": "Funkstille.",
+          "s": 4.42,
+          "e": 4.98
+        }
+      ],
+      "text": "Siebenundvierzig Bewerbungen. Drei Absagen. Und vierundvierzigmal … Funkstille."
+    },
+    "abend": {
+      "start": 5.73,
+      "end": 9.25,
+      "words": [
+        {
+          "w": "Jeden",
+          "s": 5.73,
+          "e": 6.04
+        },
+        {
+          "w": "Abend",
+          "s": 6.07,
+          "e": 6.38
+        },
+        {
+          "w": "dieselben",
+          "s": 6.41,
+          "e": 6.92
+        },
+        {
+          "w": "Jobbörsen.",
+          "s": 6.95,
+          "e": 7.46
+        },
+        {
+          "w": "Jeden",
+          "s": 7.77,
+          "e": 8.08
+        },
+        {
+          "w": "Morgen",
+          "s": 8.11,
+          "e": 8.47
+        },
+        {
+          "w": "derselbe",
+          "s": 8.5,
+          "e": 8.96
+        },
+        {
+          "w": "Stau.",
+          "s": 8.99,
+          "e": 9.25
+        }
+      ],
+      "text": "Jeden Abend dieselben Jobbörsen. Jeden Morgen derselbe Stau."
+    },
+    "mir": {
+      "start": 9.6,
+      "end": 11.62,
+      "words": [
+        {
+          "w": "Und",
+          "s": 9.6,
+          "e": 9.81
+        },
+        {
+          "w": "du",
+          "s": 9.84,
+          "e": 10
+        },
+        {
+          "w": "fragst",
+          "s": 10.03,
+          "e": 10.39
+        },
+        {
+          "w": "dich:",
+          "s": 10.42,
+          "e": 10.68
+        },
+        {
+          "w": "Liegt's",
+          "s": 10.83,
+          "e": 11.19
+        },
+        {
+          "w": "an",
+          "s": 11.22,
+          "e": 11.38
+        },
+        {
+          "w": "mir?",
+          "s": 11.41,
+          "e": 11.62
+        }
+      ],
+      "text": "Und du fragst dich: Liegt's an mir?"
+    },
+    "nein": {
+      "start": 12.37,
+      "end": 15.9,
+      "words": [
+        {
+          "w": "Nein.",
+          "s": 12.37,
+          "e": 12.63
+        },
+        {
+          "w": "Du",
+          "s": 12.94,
+          "e": 13.1
+        },
+        {
+          "w": "hast",
+          "s": 13.13,
+          "e": 13.39
+        },
+        {
+          "w": "nicht",
+          "s": 13.42,
+          "e": 13.73
+        },
+        {
+          "w": "versagt.",
+          "s": 13.76,
+          "e": 14.17
+        },
+        {
+          "w": "Dir",
+          "s": 14.48,
+          "e": 14.69
+        },
+        {
+          "w": "fehlt",
+          "s": 14.72,
+          "e": 15.03
+        },
+        {
+          "w": "nur",
+          "s": 15.06,
+          "e": 15.27
+        },
+        {
+          "w": "ein",
+          "s": 15.3,
+          "e": 15.51
+        },
+        {
+          "w": "System.",
+          "s": 15.54,
+          "e": 15.9
+        }
+      ],
+      "text": "Nein. Du hast nicht versagt. Dir fehlt nur ein System."
+    },
+    "kompass": {
+      "start": 16.4,
+      "end": 23.14,
+      "words": [
+        {
+          "w": "Der",
+          "s": 16.4,
+          "e": 16.61
+        },
+        {
+          "w": "Remote",
+          "s": 16.64,
+          "e": 17
+        },
+        {
+          "w": "Job",
+          "s": 17.03,
+          "e": 17.24
+        },
+        {
+          "w": "Kompass",
+          "s": 17.27,
+          "e": 17.68
+        },
+        {
+          "w": "zeigt",
+          "s": 17.71,
+          "e": 18.02
+        },
+        {
+          "w": "dir,",
+          "s": 18.05,
+          "e": 18.26
+        },
+        {
+          "w": "wo",
+          "s": 18.41,
+          "e": 18.57
+        },
+        {
+          "w": "Remote-Jobs",
+          "s": 18.6,
+          "e": 19.16
+        },
+        {
+          "w": "wirklich",
+          "s": 19.19,
+          "e": 19.65
+        },
+        {
+          "w": "vergeben",
+          "s": 19.68,
+          "e": 20.14
+        },
+        {
+          "w": "werden –",
+          "s": 20.17,
+          "e": 20.53
+        },
+        {
+          "w": "auch",
+          "s": 20.86,
+          "e": 21.12
+        },
+        {
+          "w": "die,",
+          "s": 21.15,
+          "e": 21.36
+        },
+        {
+          "w": "die",
+          "s": 21.51,
+          "e": 21.72
+        },
+        {
+          "w": "nie",
+          "s": 21.75,
+          "e": 21.96
+        },
+        {
+          "w": "ausgeschrieben",
+          "s": 21.99,
+          "e": 22.75
+        },
+        {
+          "w": "werden.",
+          "s": 22.78,
+          "e": 23.14
+        }
+      ],
+      "text": "Der Remote Job Kompass zeigt dir, wo Remote-Jobs wirklich vergeben werden – auch die, die nie ausgeschrieben werden."
+    },
+    "inhalt": {
+      "start": 23.44,
+      "end": 25.78,
+      "words": [
+        {
+          "w": "Mit",
+          "s": 23.44,
+          "e": 23.65
+        },
+        {
+          "w": "Vorlagen,",
+          "s": 23.68,
+          "e": 24.14
+        },
+        {
+          "w": "Tracker",
+          "s": 24.29,
+          "e": 24.7
+        },
+        {
+          "w": "und",
+          "s": 24.73,
+          "e": 24.94
+        },
+        {
+          "w": "Interview-Fragen.",
+          "s": 24.97,
+          "e": 25.78
+        }
+      ],
+      "text": "Mit Vorlagen, Tracker und Interview-Fragen."
+    },
+    "vision": {
+      "start": 27.33,
+      "end": 32.59,
+      "words": [
+        {
+          "w": "Stell",
+          "s": 27.33,
+          "e": 27.64
+        },
+        {
+          "w": "dir",
+          "s": 27.67,
+          "e": 27.88
+        },
+        {
+          "w": "vor:",
+          "s": 27.91,
+          "e": 28.12
+        },
+        {
+          "w": "Dein",
+          "s": 28.27,
+          "e": 28.53
+        },
+        {
+          "w": "Arbeitsweg",
+          "s": 28.56,
+          "e": 29.12
+        },
+        {
+          "w": "ist",
+          "s": 29.15,
+          "e": 29.36
+        },
+        {
+          "w": "nur",
+          "s": 29.39,
+          "e": 29.6
+        },
+        {
+          "w": "noch",
+          "s": 29.63,
+          "e": 29.89
+        },
+        {
+          "w": "der",
+          "s": 29.92,
+          "e": 30.13
+        },
+        {
+          "w": "Flur.",
+          "s": 30.16,
+          "e": 30.42
+        },
+        {
+          "w": "Und",
+          "s": 30.73,
+          "e": 30.94
+        },
+        {
+          "w": "deine",
+          "s": 30.97,
+          "e": 31.28
+        },
+        {
+          "w": "Zeit",
+          "s": 31.31,
+          "e": 31.57
+        },
+        {
+          "w": "gehört",
+          "s": 31.6,
+          "e": 31.96
+        },
+        {
+          "w": "wieder",
+          "s": 31.99,
+          "e": 32.35
+        },
+        {
+          "w": "dir.",
+          "s": 32.38,
+          "e": 32.59
+        }
+      ],
+      "text": "Stell dir vor: Dein Arbeitsweg ist nur noch der Flur. Und deine Zeit gehört wieder dir."
+    },
+    "cta": {
+      "start": 33.04,
+      "end": 38.08,
+      "words": [
+        {
+          "w": "Remote",
+          "s": 33.04,
+          "e": 33.4
+        },
+        {
+          "w": "Job",
+          "s": 33.43,
+          "e": 33.64
+        },
+        {
+          "w": "Kompass.",
+          "s": 33.67,
+          "e": 34.08
+        },
+        {
+          "w": "Einmalig",
+          "s": 34.39,
+          "e": 34.85
+        },
+        {
+          "w": "neununddreißig",
+          "s": 34.88,
+          "e": 35.64
+        },
+        {
+          "w": "Euro.",
+          "s": 35.67,
+          "e": 35.93
+        },
+        {
+          "w": "Kein",
+          "s": 36.24,
+          "e": 36.5
+        },
+        {
+          "w": "Abo.",
+          "s": 36.53,
+          "e": 36.74
+        },
+        {
+          "w": "Hol",
+          "s": 37.05,
+          "e": 37.26
+        },
+        {
+          "w": "ihn",
+          "s": 37.29,
+          "e": 37.5
+        },
+        {
+          "w": "dir",
+          "s": 37.53,
+          "e": 37.74
+        },
+        {
+          "w": "jetzt.",
+          "s": 37.77,
+          "e": 38.08
+        }
+      ],
+      "text": "Remote Job Kompass. Einmalig neununddreißig Euro. Kein Abo. Hol ihn dir jetzt."
+    }
+  },
+  "clips": []
+}

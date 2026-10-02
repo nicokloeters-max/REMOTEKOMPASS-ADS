@@ -1,0 +1,54 @@
+{
+  "voiceId": "vvIfKUJ2y2tsRB2Duo5k",
+  "modelId": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.42,
+    "similarity_boost": 0.82,
+    "style": 0.38,
+    "use_speaker_boost": true,
+    "speed": 1.04
+  },
+  "lines": [
+    {
+      "id": "funk",
+      "gapBefore": 0.12,
+      "text": "Siebenundvierzig Bewerbungen. Drei Absagen. Und vierundvierzigmal … Funkstille."
+    },
+    {
+      "id": "abend",
+      "gapBefore": 0.75,
+      "text": "Jeden Abend dieselben Jobbörsen. Jeden Morgen derselbe Stau."
+    },
+    {
+      "id": "mir",
+      "gapBefore": 0.35,
+      "text": "Und du fragst dich: Liegt's an mir?"
+    },
+    {
+      "id": "nein",
+      "gapBefore": 0.75,
+      "text": "Nein. Du hast nicht versagt. Dir fehlt nur ein System."
+    },
+    {
+      "id": "kompass",
+      "gapBefore": 0.5,
+      "text": "Der Remote Job Kompass zeigt dir, wo Remote-Jobs wirklich vergeben werden – auch die, die nie ausgeschrieben werden."
+    },
+    {
+      "id": "inhalt",
+      "gapBefore": 0.3,
+      "text": "Mit Vorlagen, Tracker und Interview-Fragen."
+    },
+    {
+      "id": "vision",
+      "gapBefore": 1.55,
+      "text": "Stell dir vor: Dein Arbeitsweg ist nur noch der Flur. Und deine Zeit gehört wieder dir."
+    },
+    {
+      "id": "cta",
+      "gapBefore": 0.45,
+      "text": "Remote Job Kompass. Einmalig neununddreißig Euro. Kein Abo. Hol ihn dir jetzt."
+    }
+  ],
+  "tail": 2.2
+}
