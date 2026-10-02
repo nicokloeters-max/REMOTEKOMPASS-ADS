@@ -5,6 +5,18 @@
 Das Briefing mit Zielgruppe, Hook-Strategie, Sprechertext, Stilregeln und Compliance steht in
 [`../BRIEFING.md`](../BRIEFING.md).
 
+## Stand
+
+| Datei (Repo-Hauptverzeichnis) | Inhalt |
+| --- | --- |
+| `REMOTE-JOB-KOMPASS-META-AD-FUNKSTILLE-OHNE-STIMME.mp4` | Fertiger Spot mit Musik und Sounddesign, **noch ohne Sprecher** (40 s). Die Typo trägt die Geschichte auch stumm. |
+| `REMOTE-JOB-KOMPASS-META-AD-COVER.png` | Vorschaubild für den Werbeanzeigenmanager (1080 × 1920) |
+
+Das Voice-over ist vorbereitet, aber noch nicht erzeugt: `api.elevenlabs.io` war aus der
+Produktionsumgebung gesperrt. Die Zeiten in `voice/vo.json` sind deshalb Schätzungen
+(`"source": "placeholder"`). Mit echter Stimme wird der Spot voraussichtlich kürzer (ca. 32–35 s),
+weil sich alle Szenen an die tatsächlichen Wortzeiten anpassen.
+
 ## Aufbau
 
 | Pfad | Inhalt |

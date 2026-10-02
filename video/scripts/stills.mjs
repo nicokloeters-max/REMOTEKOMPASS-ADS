@@ -4,7 +4,9 @@ import { renderStill, selectComposition, openBrowser } from "@remotion/renderer"
 import path from "node:path";
 import fs from "node:fs";
 
-const browserExecutable = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";
+// Vorinstalliertes Chromium der Cloud-Umgebung; lokal lädt Remotion seinen eigenen Browser.
+const pw = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";
+const browserExecutable = fs.existsSync(pw) ? pw : null;
 const args = process.argv.slice(2);
 const opt = Object.fromEntries(args.filter((a) => a.startsWith("--")).map((a) => a.slice(2).split("=")));
 const frames = args.filter((a) => !a.startsWith("--")).map(Number);
@@ -13,7 +15,7 @@ const scale = Number(opt.scale ?? 0.5);
 const outDir = path.resolve(opt.out ?? "out/stills");
 fs.mkdirSync(outDir, { recursive: true });
 
-const chromiumOptions = { gl: "swangle" };
+const chromiumOptions = { gl: process.env.GL ?? (browserExecutable ? "swangle" : "angle") };
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts") });
 const puppeteerInstance = await openBrowser("chrome", { browserExecutable, chromiumOptions });
 const composition = await selectComposition({ serveUrl, id: comp, browserExecutable, chromiumOptions, puppeteerInstance });

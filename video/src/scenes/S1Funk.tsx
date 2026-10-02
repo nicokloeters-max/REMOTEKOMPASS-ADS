@@ -111,7 +111,7 @@ export const S1Funk: React.FC<{ t: number }> = ({ t }) => {
   // alles wird zum Schluss in den Fluchtpunkt gesogen
   const suck = p(t, S.funk.b - 0.42, 0.42, E.in);
   const dim = p(t, funk - 0.05, 0.4, E.smooth);
-  const out = p(t, funk + 0.15, 0.5, E.in);
+  const out = p(t, funk + 0.05, 0.36, E.in);
   const big = lerp(1.06, 1, p(t, 0, 0.6, E.out));
   return (
     <div
