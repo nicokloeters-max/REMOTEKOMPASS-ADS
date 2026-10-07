@@ -1,0 +1,19 @@
+{
+  "id": "a3",
+  "title": "Eine von Hunderten",
+  "dur": 24.0,
+  "t": {
+    "dot": 0.0,
+    "zoom": 2.0,
+    "among": 2.3,
+    "hundreds": 3.7,
+    "noone": 6.4,
+    "turn": 8.8,
+    "sort": 10.6,
+    "labels": 11.2,
+    "travel": 14.6,
+    "seen": 15.4,
+    "where": 17.9,
+    "end": 19.6
+  }
+}

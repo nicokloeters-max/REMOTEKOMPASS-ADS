@@ -1,0 +1,24 @@
+{
+  "id": "a1",
+  "title": "Aufführung",
+  "dur": 24.0,
+  "t": {
+    "notif1": 0.15,
+    "notif2": 1.7,
+    "calendar": 3.3,
+    "chat": 6.0,
+    "type1": 6.6,
+    "del": 8.0,
+    "type2": 8.6,
+    "send": 10.0,
+    "dots": 10.4,
+    "okay": 11.3,
+    "howOften": 12.4,
+    "dawn": 14.6,
+    "flur": 14.9,
+    "imagine": 17.4,
+    "reply": 18.4,
+    "hearts": 19.3,
+    "end": 19.9
+  }
+}

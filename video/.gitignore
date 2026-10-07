@@ -3,3 +3,4 @@ out
 .env
 audio/out
 audio/__pycache__
+audio/sf/*.sf2
